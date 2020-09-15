@@ -17,7 +17,7 @@ class mi_card_flutter extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             CircleAvatar(
-              radius: 70.0,
+              radius: 90.0,
               backgroundImage: AssetImage("images/mahanth.png"),
             ),
             Text(
@@ -46,6 +46,7 @@ class mi_card_flutter extends StatelessWidget {
                   color: Colors.white,
                 )),
             InkWell(
+              splashColor: Colors.indigoAccent[700],
               onTap: () {
                 launch("https://github.com/MahanthMohan");
               },
@@ -72,6 +73,7 @@ class mi_card_flutter extends StatelessWidget {
               ),
             ),
             InkWell(
+              splashColor: Colors.indigoAccent[700],
               onTap: () {
                 launch("https://www.linkedin.com/in/mahanth-mohan-449902194/");
               },
@@ -97,6 +99,7 @@ class mi_card_flutter extends StatelessWidget {
               ),
             ),
             InkWell(
+              splashColor: Colors.indigoAccent[700],
               onTap: () {
                 launch(
                     "https://mail.google.com/mail/u/0/#inbox?compose=CllgCJZbjmrwQfWTnsqTlgbQHtQdFNFwzcBKkMfSvrXxwvkkTHVBdFwNMQSXRPtXXXtTQksfwvq");
@@ -112,7 +115,7 @@ class mi_card_flutter extends StatelessWidget {
                     color: Colors.black,
                   ),
                   title: Text(
-                    "Email Address",
+                    "Email",
                     style: TextStyle(
                       fontSize: 16.0,
                       color: Colors.black,
