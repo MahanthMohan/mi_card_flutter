@@ -1,6 +1,6 @@
 # mi_card_flutter
 
-A new Flutter project.
+An app to display interesting things about me!
 
 ## Getting Started
 
